@@ -1,0 +1,192 @@
+// TODO: define a min for media ports to fix landscape
+@media (max-width: 1920px) {
+  .serviceContainer {
+    margin-right: 20rem;
+    margin-left: 20rem;
+    height: 13rem;
+  }
+  .serviceHeader,
+  .missionHeader {
+    font-size: 3.5rem;
+  }
+  .serviceStrategy {
+    max-width: 45rem;
+  }
+  .projectsWrapper {
+    grid-template-columns: auto auto auto;
+  }
+  .projectContainer {
+    height: 28rem;
+  }
+}
+@media (max-width: 1280px) {
+  .serviceContainer {
+    margin-right: 9rem;
+    margin-left: 9rem;
+  }
+  .projectsWrapper {
+    grid-template-columns: auto auto auto;
+  }
+  .projectContainer {
+    height: 20rem;
+  }
+}
+@media (max-width: 1024px) {
+  .serviceContainer {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+  .projectsWrapper {
+    grid-template-columns: auto auto;
+  }
+  .projectContainer {
+    height: 24rem;
+  }
+  .contactWrapper {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .projectsWrapper {
+    grid-template-columns: auto auto;
+  }
+  .projectContainer {
+    height: 17rem;
+  }
+  .contactWrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 620px) {
+  .serviceContainer {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    height: 13rem;
+  }
+  .serviceHeader,
+  .missionHeader {
+    font-size: 2.5rem;
+  }
+
+  .projectsWrapper {
+    grid-template-columns: auto;
+  }
+  .projectContainer {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .serviceContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 15rem;
+  }
+  .serviceHeader,
+  .missionHeader {
+    font-size: 2.5rem;
+  }
+
+  .projectsWrapper {
+    grid-template-columns: auto;
+  }
+  .projectContainer {
+    height: 15rem;
+  }
+  .contactWrapper {
+    width: 90%;
+  }
+}
+
+// iPhone 6+ 7+ 8+
+@media (max-device-width: 414px) and (max-device-height: 736px) {
+  .projectContainer {
+    height: 20rem;
+  }
+}
+
+// Google Pixel XL
+@media (max-device-width: 411px) and (max-device-height: 823px) {
+  .projectContainer {
+    height: 20rem;
+  }
+}
+
+// Google Pixel
+@media (max-device-width: 411px) and (max-device-height: 731px) {
+}
+
+// iPhone X portrait
+@media (max-device-width: 375px) and (max-device-height: 812px) {
+  .projectContainer {
+    height: 18rem;
+  }
+}
+@media (max-width: 375px) {
+}
+
+// iPhone 6 7 8
+@media (max-device-width: 375px) and (max-device-height: 667px) {
+  .serviceContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 15rem;
+  }
+  .serviceHeader,
+  .missionHeader {
+    font-size: 2.5rem;
+  }
+  .projectContainer {
+    height: 18rem;
+  }
+}
+
+// Galaxy 5G and Moto G
+@media (max-device-width: 360px) and (max-device-height: 640px) {
+  .projectContainer {
+    height: 17rem;
+  }
+}
+// Galaxy 5G and Moto G landscape
+@media (max-device-width: 640px) and (max-device-height: 360px) {
+}
+
+// iPhone 5
+@media (max-device-width: 320px) and (max-device-height: 568px) {
+  .contactWrapper {
+    margin-top: 2rem;
+  }
+}
+// iPhone 5 landscape
+@media (max-device-width: 568px) and (max-device-height: 320px) {
+}
+
+@media (max-width: 280px) {
+  .serviceContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 15rem;
+  }
+  .serviceHeader,
+  .missionHeader {
+    font-size: 2.5rem;
+  }
+  .projectContainer {
+    height: 14rem;
+  }
+  .contactWrapper {
+    width: 90%;
+  }
+}
+
+// Galaxy Fold landscape
+@media (max-device-width: 653px) and (max-device-height: 280px) {
+  .serviceContainer {
+    height: 13rem;
+  }
+  .serviceHeader,
+  .missionHeader {
+    font-size: 2.5rem;
+  }
+}
