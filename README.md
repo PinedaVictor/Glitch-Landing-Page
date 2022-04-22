@@ -92,11 +92,11 @@ This is a glitched theme web app built simple and straight to the point. The UI 
 ## Building
 
 - npm run build
-  - Wraps all project files in one optimized folder
+  - Wraps all project files in one optimized folder named build
 
 ## Hosting
 
-Pick a hosting provieder and make sure you upload the contents of the build folder
+Pick a hosting provider and make sure you upload the contents of the build folder
 
 ## License
 
